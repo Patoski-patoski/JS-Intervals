@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 1.6;
+    background: url(https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHw2fHxsb3ZlfGVufDB8fHx8MTY2ODE1MDc0NQ&ixlib=rb-4.0.3&q=80&w=1080) no-repeat center center/cover;
+    font-family: 'Sono', sans-serif; 
+    height: 100vh;
+   
+}
+
+main{
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column;
+
+}
+
+div {
+    padding: 4rem 3rem;
+    font-size: 5rem;
+    color: #fff;
+    border-radius: 3px;
+    width: 100vw;
+    text-align: center;
+}
+
+/* span{color: red;} */
+
+
+
+button{
+    padding: 1rem;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    transition: ease-in; 
+    color: #fff;
+
+    
+} 
+
+button:hover{
+padding: 1.2rem;
+
+}
+
+.red{
+    color: red;
+    text-transform: uppercase;
+
+}
+
+.strike{
+    text-decoration: line-through;
+}
